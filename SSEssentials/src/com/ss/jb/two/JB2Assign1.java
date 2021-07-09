@@ -5,7 +5,7 @@ package com.ss.jb.two;
 
 /**
  * @author Robert Haas
- *
+ * I used the arguments inside the Run Configurations on eclipse to add my inputs
  */
 public class JB2Assign1 {
 
