@@ -1,0 +1,15 @@
+1.	 Which class would you use to store your birthday in years, months, days, seconds, and nanoseconds?
+		I would use the LocalDateTime class because it tracks date and time.
+		
+2.	 Given a random date, how would you find the date of the previous Thursday?
+		You would find it using the previous method from the TemporalAdjusters class.
+		
+		
+3.	 What is the difference between a ZoneId and a ZoneOffset?
+		ZoneID uses ZoneRules to figure out the offest from the Greenwich time and ZoneOffset only uses the absolute offset to  figure out the
+		offset from the Greenwich time. 
+		
+		
+4.	 How would you convert an Instant to a ZonedDateTime? How would you convert a ZonedDateTime to an Instant?
+		To convert an Instant to a ZonedDateTime you would need a ZoneID and use the ZonedDateTime.ofInstance method.
+		To convert a ZonedDateTime to and Instance you implement the ChronoZonedDateTime interface and use the toInstant method.
